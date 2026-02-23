@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /takk.html
+
+Sitemap: https://www.gulvslipingtilbud.no/sitemap.xml

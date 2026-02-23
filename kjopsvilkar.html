@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="canonical" href="https://www.gulvslipingtilbud.no/kjopsvilkar.html">
+
+  <title>Kjøpsvilkår – Gulvslipingtilbud.no</title>
+  <meta name="description" content="Les Gulvslipingtilbud.no sine kjøpsvilkår. Her finner du informasjon om tjenesten, hva du samtykker til og hvilke regler som gjelder ved bruk av plattformen.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#8B5E3C">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/core-styles.css">
+
+  <style>
+    .legal-hero {
+      background: var(--bg-section);
+      padding: 4rem 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .legal-breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      color: var(--gray-500);
+      margin-bottom: 1rem;
+    }
+    .legal-breadcrumb a { color: var(--primary); text-decoration: none; }
+    .legal-breadcrumb a:hover { text-decoration: underline; }
+    .legal-hero-title {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 800;
+      color: var(--gray-900);
+      margin-bottom: 0.75rem;
+    }
+    .legal-hero-meta {
+      font-size: 0.875rem;
+      color: var(--gray-500);
+    }
+    .legal-content {
+      padding: 3.5rem 0 5rem;
+    }
+    .legal-grid {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 3rem;
+      align-items: start;
+    }
+    .legal-toc {
+      position: sticky;
+      top: 5.5rem;
+      background: var(--bg-section);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+    }
+    .legal-toc-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gray-500);
+      margin-bottom: 0.875rem;
+    }
+    .legal-toc ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.375rem;
+    }
+    .legal-toc a {
+      font-size: 0.8125rem;
+      color: var(--gray-600);
+      text-decoration: none;
+      display: block;
+      padding: 0.25rem 0;
+      border-left: 2px solid transparent;
+      padding-left: 0.625rem;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .legal-toc a:hover {
+      color: var(--primary);
+      border-left-color: var(--primary);
+    }
+    .legal-body {
+      min-width: 0;
+    }
+    .legal-section {
+      margin-bottom: 2.75rem;
+      padding-bottom: 2.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .legal-section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    .legal-section h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .legal-section h2 .sec-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 1.75rem;
+      height: 1.75rem;
+      background: var(--primary);
+      color: #fff;
+      border-radius: 50%;
+      font-size: 0.75rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .legal-section p {
+      color: var(--gray-700);
+      line-height: 1.75;
+      margin-bottom: 0.875rem;
+    }
+    .legal-section p:last-child { margin-bottom: 0; }
+    .legal-section ul, .legal-section ol {
+      padding-left: 1.5rem;
+      color: var(--gray-700);
+      line-height: 1.75;
+      margin-bottom: 0.875rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.375rem;
+    }
+    .legal-section strong { color: var(--gray-900); }
+    .legal-section a { color: var(--primary); }
+    .legal-highlight {
+      background: #f0fdf4;
+      border-left: 3px solid var(--primary);
+      border-radius: 0 0.5rem 0.5rem 0;
+      padding: 1rem 1.25rem;
+      margin-bottom: 0.875rem;
+    }
+    .legal-highlight p { margin: 0; color: var(--gray-700); }
+    @media (max-width: 768px) {
+      .legal-grid { grid-template-columns: 1fr; }
+      .legal-toc { position: static; }
+    }
+  </style>
+</head>
+
+<body>
+  <form name="motta-tilbud" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="motta-tilbud">
+    <input name="beskrivelse"><input name="adresse"><input name="navn"><input name="epost"><input name="telefon"><input name="bot-field">
+  </form>
+  <a class="skip-link" href="#main">Hopp til hovedinnhold</a>
+
+  <!-- Navigation -->
+  <header id="cs-navigation">
+    <div class="cs-container">
+      <a href="index.html" class="cs-logo" aria-label="Gulvslipingtilbud – tilbake til forsiden">
+        <span class="cs-logo-green">Gulvsliping</span><span class="cs-logo-black">tilbud.no</span>
+      </a>
+      <button class="cs-toggle" aria-label="Åpne meny" aria-expanded="false">
+        <span class="cs-line cs-line1" aria-hidden="true"></span>
+        <span class="cs-line cs-line2" aria-hidden="true"></span>
+        <span class="cs-line cs-line3" aria-hidden="true"></span>
+      </button>
+      <div class="cs-ul-wrapper">
+        <nav class="cs-nav-links" role="navigation" aria-label="Hovedmeny">
+          <a href="index.html#how-it-works" class="cs-li-link">Slik fungerer det</a>
+          <a href="om-oss.html" class="cs-li-link">Om oss</a>
+          <a href="gulvblogg.html" class="cs-li-link">Blogg</a>
+          <a href="index.html#faq-section" class="cs-li-link">FAQ</a>
+          <a href="for-bedrifter.html" class="cs-li-link">For bedrifter</a>
+        </nav>
+      </div>
+      <div class="cs-nav-actions">
+        <button class="btn btn-primary" data-modal="lead" aria-label="Motta 3 tilbud på gulvsliping">
+          Motta 3 tilbud
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="legal-hero">
+      <div class="container">
+        <nav class="legal-breadcrumb" aria-label="Brødsmulesti">
+          <a href="index.html">Forsiden</a>
+          <span aria-hidden="true">›</span>
+          <span>Kjøpsvilkår</span>
+        </nav>
+        <h1 class="legal-hero-title">Kjøpsvilkår</h1>
+        <p class="legal-hero-meta">Sist oppdatert: 1. januar 2026 &nbsp;·&nbsp; Gjeldende for Gulvslipingtilbud.no</p>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="legal-content">
+      <div class="container">
+        <div class="legal-grid">
+
+          <!-- Table of contents -->
+          <aside class="legal-toc" aria-label="Innholdsfortegnelse">
+            <p class="legal-toc-title">Innhold</p>
+            <ol>
+              <li><a href="#kv-1">Om tjenesten</a></li>
+              <li><a href="#kv-2">Hvem kan bruke tjenesten</a></li>
+              <li><a href="#kv-3">Slik fungerer det</a></li>
+              <li><a href="#kv-4">Uforpliktende tilbud</a></li>
+              <li><a href="#kv-5">Betaling og priser</a></li>
+              <li><a href="#kv-6">Ansvar og garantier</a></li>
+              <li><a href="#kv-7">Misbruk av tjenesten</a></li>
+              <li><a href="#kv-8">Endringer i vilkårene</a></li>
+              <li><a href="#kv-9">Gjeldende lov og tvister</a></li>
+              <li><a href="#kv-10">Kontakt</a></li>
+            </ol>
+          </aside>
+
+          <!-- Body -->
+          <div class="legal-body">
+
+            <div class="legal-highlight">
+              <p>Ved å sende inn en forespørsel på Gulvslipingtilbud.no aksepterer du disse kjøpsvilkårene. Les dem nøye. Tjenesten er gratis for deg som privatperson – det er aldri noen kjøpsforpliktelse.</p>
+            </div>
+
+            <div class="legal-section" id="kv-1">
+              <h2><span class="sec-num">1</span> Om tjenesten</h2>
+              <p>Gulvslipingtilbud.no er en digital markedsplass drevet av <strong>Nexus Solutions AS</strong> (org.nr. 933 673 561) som formidler kontakt mellom privatpersoner som ønsker gulvsliping og kvalitetssikrede håndverkerfirmaer.</p>
+              <p>Gulvslipingtilbud.no er en <strong>formidlingstjeneste</strong>. Vi er ikke part i avtalen mellom deg og håndverkerfirmaet, og vi utfører ikke byggearbeid selv.</p>
+            </div>
+
+            <div class="legal-section" id="kv-2">
+              <h2><span class="sec-num">2</span> Hvem kan bruke tjenesten</h2>
+              <p>Tjenesten er ment for:</p>
+              <ul>
+                <li>Privatpersoner over 18 år som ønsker å innhente tilbud på gulvsliping i Norge.</li>
+                <li>Eiere eller leietakere (med eiers samtykke) av bolig i Norge.</li>
+              </ul>
+              <p>Tjenesten er gratis for privatpersoner. Bedrifter som ønsker å bruke tjenesten for egne prosjekter, bes ta kontakt separat.</p>
+            </div>
+
+            <div class="legal-section" id="kv-3">
+              <h2><span class="sec-num">3</span> Slik fungerer det</h2>
+              <p>Når du sender inn en forespørsel på Gulvslipingtilbud.no skjer følgende:</p>
+              <ol>
+                <li>Du fyller ut skjemaet med beskrivelse av prosjektet, adresse og kontaktopplysninger.</li>
+                <li>Gulvslipingtilbud.no matcher forespørselen din med inntil <strong>3 relevante, godkjente fagfolk</strong> i ditt nærområde.</li>
+                <li>De utvalgte fagfolkene kontakter deg direkte – normalt innen <strong>1–2 virkedager</strong>.</li>
+                <li>Du sammenligner tilbudene og velger fritt om du ønsker å gå videre med noen av dem.</li>
+              </ol>
+              <p>Gulvslipingtilbud.no garanterer ikke et bestemt antall tilbud, da tilgjengeligheten av fagfolk varierer per region og periode.</p>
+            </div>
+
+            <div class="legal-section" id="kv-4">
+              <h2><span class="sec-num">4</span> Uforpliktende tilbud</h2>
+              <p>Det er <strong>helt gratis og uforpliktende</strong> å sende inn en forespørsel. Du er ikke forpliktet til å akseptere noen av tilbudene du mottar.</p>
+              <p>Dersom du ønsker å avbryte prosessen etter at forespørselen er sendt, anbefaler vi at du informerer fagfolkene som tar kontakt om dette, slik at de ikke bruker unødvendig tid.</p>
+              <p>Eventuelle avtaler du inngår direkte med håndverkerfirmaer er egne avtaler mellom deg og det aktuelle firmaet. Gulvslipingtilbud.no er ikke ansvarlig for innholdet i slike avtaler.</p>
+            </div>
+
+            <div class="legal-section" id="kv-5">
+              <h2><span class="sec-num">5</span> Betaling og priser</h2>
+              <p><strong>For privatpersoner er tjenesten 100 % gratis.</strong> Gulvslipingtilbud.no tar seg betalt av fagfolkene som er registrert på plattformen, ikke av deg som bruker.</p>
+              <p>Prisene du mottar i tilbud fra fagfolk er direkte priser fra håndverkerfirmaene og har ingen tillegg fra Gulvslipingtilbud.no. Eventuelle gebyrer, materialkostnader og arbeidskostnader fremgår av det individuelle tilbudet fra fagmannen.</p>
+            </div>
+
+            <div class="legal-section" id="kv-6">
+              <h2><span class="sec-num">6</span> Ansvar og garantier</h2>
+              <p>Gulvslipingtilbud.no kvalitetssikrer fagfolkene på plattformen ved opptak, men er ikke ansvarlig for:</p>
+              <ul>
+                <li>Arbeidets kvalitet, pris, tidsbruk eller resultatet av jobben som utføres av fagfolk.</li>
+                <li>Eventuelle skader, mangler eller konflikter som oppstår mellom deg og fagmannen.</li>
+                <li>At en fagmann faktisk tar kontakt eller avgir tilbud.</li>
+              </ul>
+              <p>Tvister knyttet til selve håndverkerarbeidet må løses direkte mellom deg og håndverkerfirmaet, eventuelt med bistand fra <strong>Forbrukertilsynet</strong> eller <strong>Forbrukerrådet</strong>.</p>
+              <p>Gulvslipingtilbud.no er heller ikke ansvarlig for feil, forsinkelser eller avbrudd i tjenesten som skyldes tekniske problemer, tredjeparts plattformer eller force majeure.</p>
+            </div>
+
+            <div class="legal-section" id="kv-7">
+              <h2><span class="sec-num">7</span> Misbruk av tjenesten</h2>
+              <p>Det er ikke tillatt å bruke Gulvslipingtilbud.no til å:</p>
+              <ul>
+                <li>Sende inn falske eller villedende forespørsler.</li>
+                <li>Innhente priser uten reelt behov for tjenesten, med den hensikt å bruke disse som løftestang i forhandlinger.</li>
+                <li>Scrappe eller automatisere forespørsler med programvare.</li>
+              </ul>
+              <p>Vi forbeholder oss retten til å blokkere brukere som misbruker tjenesten.</p>
+            </div>
+
+            <div class="legal-section" id="kv-8">
+              <h2><span class="sec-num">8</span> Endringer i vilkårene</h2>
+              <p>Gulvslipingtilbud.no kan oppdatere disse vilkårene ved behov. Vesentlige endringer varsles på nettsiden. Dato for siste oppdatering er alltid angitt øverst på denne siden.</p>
+              <p>Fortsatt bruk av tjenesten etter at endringer er publisert, regnes som aksept av de oppdaterte vilkårene.</p>
+            </div>
+
+            <div class="legal-section" id="kv-9">
+              <h2><span class="sec-num">9</span> Gjeldende lov og tvister</h2>
+              <p>Disse vilkårene er underlagt <strong>norsk rett</strong>. Eventuelle tvister mellom deg og Gulvslipingtilbud.no skal forsøkes løst i minnelighet. Dersom dette ikke lykkes, kan tvisten bringes inn for Oslo tingrett som verneting.</p>
+              <p>Du kan også klage til <strong>Forbrukertilsynet</strong> (<a href="https://www.forbrukertilsynet.no" target="_blank" rel="noopener">forbrukertilsynet.no</a>) eller benytte deg av EUs nettbaserte klageportal (<a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">ec.europa.eu/consumers/odr</a>).</p>
+            </div>
+
+            <div class="legal-section" id="kv-10">
+              <h2><span class="sec-num">10</span> Kontakt</h2>
+              <p>Har du spørsmål om disse vilkårene? Ta gjerne kontakt med oss:</p>
+              <p>
+                <strong>Nexus Solutions AS / Gulvslipingtilbud.no</strong><br>
+                E-post: <a href="mailto:hei@gulvslipingtilbud.no">hei@gulvslipingtilbud.no</a><br>
+                Org.nr: 933 673 561
+              </p>
+              <p>Vi besvarer henvendelser innen 2 virkedager.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="cs-footer" role="contentinfo">
+    <div class="container">
+      <div class="cs-footer-grid">
+        <div class="cs-footer-brand">
+          <p class="cs-footer-logo"><span class="cs-logo-green">Gulvsliping</span>tilbud<span>.no</span></p>
+          <p class="cs-footer-desc">
+            Norges ledende markedsplass for gulvsliping. Vi kobler deg med
+            kvalitetssikrede fagfolk og hjelper deg å finne beste pris.
+          </p>
+        </div>
+
+        <div>
+          <p class="cs-footer-col-title">Inspirasjon</p>
+          <ul class="cs-footer-links">
+            <li><a href="hva-koster-gulvsliping.html">Hva koster gulvsliping?</a></li>
+            <li><a href="hvor-lang-tid-tar-gulvsliping.html">Hvor lang tid tar gulvsliping?</a></li>
+            <li><a href="planlegge-gulvsliping.html">Planlegge gulvsliping</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="cs-footer-col-title">Informasjon</p>
+          <ul class="cs-footer-links">
+            <li><a href="index.html#how-it-works">Slik fungerer det</a></li>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="gulvblogg.html">Blogg</a></li>
+            <li><a href="index.html#faq-section">FAQ</a></li>
+            <li><a href="for-bedrifter.html">For bedrifter</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="cs-footer-col-title">Kontakt</p>
+          <ul class="cs-footer-links">
+            <li><a href="mailto:hei@gulvslipingtilbud.no">hei@gulvslipingtilbud.no</a></li>
+            <li><a href="personvern.html">Personvern</a></li>
+            <li><a href="kjopsvilkar.html" aria-current="page">Kjøpsvilkår</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="cs-footer-bottom">
+        <p>© <span id="footer-year">2026</span> Gulvslipingtilbud.no – Alle rettigheter reservert</p>
+        <p>Designet og utviklet i Norge 🇳🇴</p>
+      </div>
+      <p class="cs-footer-owner"><a href="https://nexus-solutions.no/om-oss" target="_blank" rel="noopener">Nexus Solutions AS</a> &nbsp;&bull;&nbsp; Org nr 933 673 561</p>
+    </div>
+  </footer>
+
+  <!-- Lead Modal -->
+  <div id="lead-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h2 class="modal-title" id="modal-title">Motta 3 uforpliktende tilbud</h2>
+        <button class="modal-close" aria-label="Lukk skjema">✕</button>
+      </div>
+      <div class="modal-body modal-form-body">
+        <div class="modal-progress" aria-hidden="true">
+          <div class="modal-progress-bar"><div class="modal-progress-fill" style="width:0%"></div></div>
+          <div class="modal-progress-text">
+            <span class="modal-countdown-text">30 sekunder gjenstår</span>
+          </div>
+        </div>
+        <div class="modal-step is-active" data-step="1">
+          <h3 class="modal-step-title">Beskrivelse</h3>
+          <div class="modal-form-group">
+            <textarea id="modal-description" class="modal-input modal-textarea" placeholder="Kort beskrivelse av prosjektet" maxlength="2500" rows="5"></textarea>
+            <div class="modal-input-hint"><span>Trykk neste for å gå videre</span><span class="modal-char-count">0/2500</span></div>
+            <p class="modal-error-msg"></p>
+          </div>
+        </div>
+        <div class="modal-step" data-step="2">
+          <h3 class="modal-step-title">Adresse</h3>
+          <div class="modal-form-group">
+            <input type="text" id="modal-address" class="modal-input" placeholder="Adresse" autocomplete="street-address">
+            <p class="modal-input-hint">Trykk enter eller neste for å gå videre</p>
+            <p class="modal-error-msg"></p>
+          </div>
+        </div>
+        <div class="modal-step" data-step="3">
+          <h3 class="modal-step-title">Navn</h3>
+          <div class="modal-form-group">
+            <input type="text" id="modal-name" class="modal-input" placeholder="Navn" autocomplete="name">
+            <p class="modal-input-hint">Trykk enter eller neste for å gå videre</p>
+            <p class="modal-error-msg"></p>
+          </div>
+        </div>
+        <div class="modal-step" data-step="4">
+          <h3 class="modal-step-title">E-post</h3>
+          <div class="modal-form-group">
+            <input type="email" id="modal-email" class="modal-input" placeholder="E-post" autocomplete="email">
+            <p class="modal-input-hint">Trykk enter eller neste for å gå videre</p>
+            <p class="modal-error-msg"></p>
+          </div>
+        </div>
+        <div class="modal-step" data-step="5">
+          <h3 class="modal-step-title">Telefon</h3>
+          <div class="modal-form-group">
+            <input type="tel" id="modal-phone" class="modal-input" placeholder="Telefon" autocomplete="tel">
+            <p class="modal-input-hint">Gå videre for å godta <a href="kjopsvilkar.html" style="color:var(--primary)">vilkår og personvern</a></p>
+            <p class="modal-error-msg"></p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="modal-nav-btns">
+            <button type="button" class="btn-modal-back" style="display:none">Forrige</button>
+            <button type="button" class="btn-modal-next">Neste</button>
+          </div>
+        </div>
+        <p class="modal-disclaimer">100 % uforpliktende og gratis. <a href="personvern.html" style="color:var(--primary)">Personvern</a>.</p>
+      </div>
+      <div class="modal-success" role="status" aria-live="polite">
+        <span class="modal-success-icon" aria-hidden="true">✅</span>
+        <h2>Forespørsel mottatt!</h2>
+        <p>Opptil 3 fagfolk tar kontakt innen 1–2 virkedager.</p>
+      </div>
+    </div>
+  </div>
+
+  <script defer src="assets/js/nav.js"></script>
+  <script defer src="assets/js/lead-modal.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
